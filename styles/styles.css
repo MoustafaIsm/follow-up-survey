@@ -1,0 +1,66 @@
+.page_container {
+    margin-left: 23%;
+    margin-right: 23%;
+    background-color: lightgray;
+}
+
+.important_text_container {
+    color: #92401b;
+}
+
+.title_container {
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    font-size: 30pt;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 3%;
+}
+
+.form_container {
+    padding: 1%;
+}
+
+.text_input {
+    width: 100%;
+    height: 30px;
+    border: 2px solid grey;
+}
+
+.product_name_container {
+    margin-left: 5%;
+}
+
+.grid_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.row_question_container {
+    padding: 2%;
+}
+
+.submit_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.submit_input {
+    width: 12em;
+    height: 3em;
+    border: 0px;
+    border-radius: 0.5em;
+    margin-top: 2em;
+    background-color: grey;
+    color: white;
+}
+
+input[type=radio] {
+    width: 15px;
+    height: 15px;
+}
+
+label {
+    color: #9d512e;
+}
