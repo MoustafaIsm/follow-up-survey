@@ -27,18 +27,14 @@ body {
 }
 
 .text_input {
-    width: 100%;
+    width: 90%;
     height: 30px;
     border: 2px solid grey;
 }
 
 .product_name_container {
     margin-left: 5%;
-}
-
-.grid_container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    overflow: hidden;
 }
 
 .row_question_container {
@@ -62,6 +58,16 @@ body {
 .guide_container {
     font-size: x-small;
     color: gray;
+}
+
+.left_side_container {
+    float: left;
+    width: 50%;
+}
+
+.date_container {
+    float: left;
+    margin-right: 20%;
 }
 
 input[type=radio] {
