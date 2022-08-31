@@ -51,7 +51,8 @@ body {
     border: 0px;
     border-radius: 0.5em;
     margin-top: 2em;
-    background-color: #797979;
+    /*background-color: #797979;*/
+    background-image: linear-gradient(black,gray);
     color: white;
 }
 
