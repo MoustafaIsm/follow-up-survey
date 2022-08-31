@@ -1,7 +1,12 @@
+body {
+    background-color: #b3b3b3;
+    font-family: Arial, Helvetica, sans-serif;
+}
 .page_container {
     margin-left: 23%;
     margin-right: 23%;
-    background-color: lightgray;
+    margin-top: 4%;
+    background-color: #e3e3e3;
 }
 
 .important_text_container {
@@ -9,16 +14,16 @@
 }
 
 .title_container {
-    width: 100%;
+    width: 98%;
     background-color: white;
     text-align: center;
     font-size: 30pt;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    padding: 3%;
+    padding: 1%;
 }
 
 .form_container {
-    padding: 1%;
+    padding: 3%;
 }
 
 .text_input {
@@ -41,9 +46,7 @@
 }
 
 .submit_container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    padding-left: 40%;
 }
 
 .submit_input {
@@ -52,8 +55,13 @@
     border: 0px;
     border-radius: 0.5em;
     margin-top: 2em;
-    background-color: grey;
+    background-color: #797979;
     color: white;
+}
+
+.guide_container {
+    font-size: x-small;
+    color: gray;
 }
 
 input[type=radio] {
